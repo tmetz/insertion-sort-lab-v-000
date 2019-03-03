@@ -1,7 +1,7 @@
 function findMinAndRemove(array){
-  min = array[0];
-  minIndex = 0;
-  for (int i = 1; i < array.length; i++) {
+  let min = array[0];
+  let minIndex = 0;
+  for (let i = 1; i < array.length; i++) {
     if (array[i] < min) {
       min = array[i];
       minIndex = i;
