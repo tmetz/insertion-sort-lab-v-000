@@ -16,4 +16,5 @@ function insertionSort(array){
   while(array.length > 0) {
     tempArray.push(findMinAndRemove(array));
   }
+  return tempArray;
 }
